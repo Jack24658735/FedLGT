@@ -5,7 +5,7 @@ Language-Guided Transformer for Federated Multi-Label Classification
 </b>
 </h2>
 </div>
-The official implementation of the **AAAI 2024** paper: 
+
 <!-- <p align="center"><img src="docs/model.png" width="800"/></p> -->
 
 
