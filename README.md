@@ -1,7 +1,7 @@
 <div align="center">
 <h1>
 <b>
-FedLGT: Language-Guided Transformer for Federated Multi-Label Classification
+Language-Guided Transformer for Federated Multi-Label Classification
 </b>
 </h1>
 </div>
