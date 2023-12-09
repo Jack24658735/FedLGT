@@ -1,7 +1,7 @@
 <div align="center">
 <h1>
 <b>
-Language-Guided Transformer <br> for Federated Multi-Label Classification
+Language-Guided Transformer for <br> Federated Multi-Label Classification
 </b>
 </h1>
 </div>
