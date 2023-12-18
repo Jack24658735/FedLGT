@@ -51,6 +51,7 @@ Federated Learning (FL) is an emerging paradigm that enables multiple users to c
     python3 ./data/build_text_feat.py
     python3 ./data/build_label_mapping.py
     ```
+3. Now you should have all the data files under the folder ``data``.
 ### COCO/PASCAL VOC
 Please refer to [C-Tran](https://github.com/QData/C-Tran) to obtain these datasets.
 
