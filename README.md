@@ -1,5 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+[![arXiv](https://img.shields.io/badge/cs.CV-%09arXiv%3A2205.00823-red)](https://arxiv.org/abs/2312.07165)
 
 <div align="center">
 <h1>
@@ -35,13 +36,16 @@ Federated Learning (FL) is an emerging paradigm that enables multiple users to c
     ```
     pip install -r requirements.txt
     ```
-## Data Preparation (FLAIR)
+## Data Preparation
+### FLAIR
 1. Please refer to [FLAIR](https://github.com/apple/ml-flair) official repository for data preparation. Note that please run the script to generate the hdf5 file for FLAIR dataset. For more details, please refer to [prepare-hdf5](https://github.com/apple/ml-flair?tab=readme-ov-file#optional-prepare-the-dataset-in-hdf5) part in FLAIR.
 2. Run our pre-processing commands:
     ```
     python3 ./data/build_text_feat.py
     python3 ./data/build_label_mapping.py
     ```
+### COCO/PASCAL VOC
+Please refer to [C-Tran](https://github.com/QData/C-Tran) to obtain these datasets.
 
 
 ## Training and Evaluation
@@ -62,8 +66,8 @@ Federated Learning (FL) is an emerging paradigm that enables multiple users to c
                     --learn_emb_type clip --agg_type fedavg --coarse_prompt_type concat --flair_fine --use_global_guide
 
     ```
-* Inference
-    Follow the same comamnd as training, but add `--inference` flag. For example:
+* Evaluation
+    * Follow the same comamnd as training, but add `--inference` flag. For example:
     ``` python
     # Coarse-grained
     python fed_main.py  --layers 3 --dataset 'flair_fed' \ 
@@ -74,8 +78,19 @@ Federated Learning (FL) is an emerging paradigm that enables multiple users to c
 
 
 ## Acknowledgement
-### TBA
+We build our FedLGT codebase on the codebases of [C-Tran](https://github.com/QData/C-Tran) and [NIID-Bench](https://github.com/Xtra-Computing/NIID-Bench). We sincerely thank for their wonderful works.
+
+## Citation
+If you find this useful for your research, please consider citing:
+``` bibtex
+@inproceedings{liu2024fedlgt,
+  author    = {I-Jieh Liu and Ci-Siang Lin and Fu-En Yang and Yu-Chiang Frank Wang},
+  title     = {Language-Guided Transformer for Federated Multi-Label Classification},
+  booktitle = {AAAI},
+  year      = {2024},
+}
+```
 
 ## Contact
-### TBA
+If you have any questions about this project, please feel free to contact liujack0914@gmail.com.
 

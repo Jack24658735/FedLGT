@@ -148,7 +148,7 @@ if __name__ == '__main__':
         category_list = {
                         1: u'person',
                         2: u'bicycle',
-                        3: u'car',--epochs 5
+                        3: u'car',
                         4: u'motorcycle',
                         5: u'airplane',
                         6: u'bus',
