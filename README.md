@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![arXiv](https://img.shields.io/badge/cs.CV-%09arXiv%3A2205.00823-red)](https://arxiv.org/abs/2312.07165)
+[![arXiv](https://img.shields.io/badge/cs.CV-%09arXiv%3A2312.07165-red)](https://arxiv.org/abs/2312.07165)
 
 <div align="center">
 <h1>
