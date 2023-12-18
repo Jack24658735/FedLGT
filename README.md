@@ -12,14 +12,11 @@ Language-Guided Transformer for <br> Federated Multi-Label Classification
 
 ### [Project Page](https://jack24658735.github.io/fedlgt/) | [Paper](https://arxiv.org/abs/2312.07165)
 
-
-
-
 > **Language-Guided Transformer for Federated Multi-Label Classification**
 > 
 > **I-Jieh Liu**, Ci-Siang Lin, Fu-En Yang, Yu-Chiang Frank Wang
 
-Official implementation of our work **Language-Guided Transformer for Federated Multi-Label Classification**.
+Official implementation of **Language-Guided Transformer for Federated Multi-Label Classification**.
 <p align="center"><img src="assets/fig1_for_project_page.png" width="450"/></p>
 
 
@@ -27,6 +24,7 @@ Official implementation of our work **Language-Guided Transformer for Federated 
 Federated Learning (FL) is an emerging paradigm that enables multiple users to collaboratively train a robust model in a privacy-preserving manner without sharing their private data. Most existing approaches of FL only consider traditional single-label image classification, ignoring the impact when transferring the task to multi-label image classification. Nevertheless, it is still challenging for FL to deal with user heterogeneity in their local data distribution in the real-world FL scenario, and this issue becomes even more severe in multi-label image classification. Inspired by the recent success of Transformers in centralized settings, we propose a novel FL framework for multi-label classification. Since partial label correlation may be observed by local clients during training, direct aggregation of locally updated models would not produce satisfactory performances. Thus, we propose a novel FL framework of **L**anguage-**G**uided **T**ransformer (**FedLGT**) to tackle this challenging task, which aims to exploit and transfer knowledge across different clients for learning a robust global model. Through extensive experiments on various multi-label datasets (e.g., FLAIR, MS-COCO, etc.), we show that our FedLGT is able to achieve satisfactory performance and outperforms standard FL techniques under multi-label FL scenarios.
 
 ## Update
+- **(2021/12/18)** Code for FedLGT is released.
 - **(2023/12/10)** Code for FedLGT is coming soon. Stay tuned!
 
 ## Framework Overview
