@@ -31,6 +31,8 @@ Federated Learning (FL) is an emerging paradigm that enables multiple users to c
 <p align="center"><img src="assets/fig2_for_project_page.png" width="800"/></p>
 
 ## Setup
+Python 3.9 or 3.10 is required (the pinned dependencies no longer support Python 3.7/3.8, and the sample PyTorch 1.13 build below supports up to 3.10).
+
 1. Please install your PyTorch version according to your CUDA version. For more details, please refer to [PyTorch](https://pytorch.org/). 
     * Sample command:
         ```
